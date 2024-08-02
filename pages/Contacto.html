@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Azúcar y Sal Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../img/logo.jpg" alt="Logo">
+            </div>
+            <h1>Azúcar y Sal</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+
+        <div class="parrafocontacto">
+            <h2>Contacto</h2>
+            <p>Por favor, complete el siguiente formulario para contactarnos:</p>
+        </div>
+        <div class="formulariocontacto">
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="telefono">Número de teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="Sin 0 ni 15" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="consulta">Escriba aquí su consulta (máximo 100 caracteres):</label>
+                <textarea id="consulta" name="consulta" maxlength="100" required></textarea>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+            <a href="https://www.facebook.com/AzucarySalRGL?locale=es_LA" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+
+            <a href="https://www.instagram.com/azucarysalrgl/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+
+            <a href="https://api.whatsapp.com/send?phone=5492966233890" target="_blank"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+            <p>&copy; 2024 Azúcar y Sal. Todos los derechos reservados.</p>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
