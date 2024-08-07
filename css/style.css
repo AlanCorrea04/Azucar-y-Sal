@@ -141,7 +141,7 @@ main {
     background-color: rgba(78, 78, 75, 0.767);
 }
 
-/* Portada Section */
+
 .portada {
     text-align: center;
     padding: 50px 20px;
@@ -157,7 +157,7 @@ main {
     color: rgb(78, 78, 75);
 }
 
-/* Descripción Section */
+/* Descripción */
 .descripcion {
     text-align: center;
     padding: 40px 20px;
@@ -174,7 +174,7 @@ main {
     color: rgb(78, 78, 75);
 }
 
-/* Testimonios Section */
+/* Testimonios */
 .testimonios {
     background-color: rgb(93, 63, 121);
     padding: 40px 20px;
@@ -205,30 +205,29 @@ main {
     text-align: center;
 }
 
-/* Galería Section */
-.galeria {
-    padding: 40px 20px;
-}
-
+/* Galería */
 .galeria h2 {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-    color: rgb(93, 63, 121);
+    color: #5d3f79;
 }
 
 .galeria-container {
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    align-items: center;
 }
 
 .galeria-container img {
-    max-width: 100%;
+    width: 300px;
     height: auto;
+    object-fit: cover;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.galeria-container img:hover {
+    transform: scale(1.1);
 }
 
 /* SECCION DE PRODUCTOS */
@@ -429,7 +428,7 @@ input[type="submit"]:hover {
 /* PIE DE PAGINA */
 
 footer {
-    background-color: rgb(93, 63, 121);
+    background-color: #5d3f79;
     padding: 10px;
     text-align: center;
     width: auto;
