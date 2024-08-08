@@ -197,7 +197,7 @@ main {
 .testimonio {
     max-width: 600px;
     background-color: #fff;
-    color: rgb(93, 63, 121);
+    color: #5d3f79;
     border: 1px solid rgb(160, 149, 54);
     border-radius: 5px;
     padding: 15px;
@@ -213,21 +213,33 @@ main {
 
 .galeria-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
+/* Imágenes de la galería */
 .galeria-container img {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
     transition: transform 0.3s;
 }
 
+
 .galeria-container img:hover {
     transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .galeria-container {
+        gap: 5px;
+        padding: 0 10px;
+    }
 }
 
 /* SECCION DE PRODUCTOS */
