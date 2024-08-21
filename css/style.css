@@ -123,7 +123,6 @@ header .container .navbar-toggler:hover {
     display: none;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     gap: 10px;
 }
 
@@ -158,32 +157,6 @@ header .container .navbar-toggler:hover {
     max-width: 300px;
     height: auto;
     object-fit: cover;
-=======
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: rgb(93, 63, 121);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    padding: 20px 0;
-  }
-  nav .navbar-collapse.show {
-    display: flex;
-  }
-  nav ul {
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-  }
-  nav ul li {
-    margin: 10px 0;
-  }
-  nav ul li a {
-    font-size: 18px;
-    padding: 12px 25px;
-    color: #050505;
->>>>>>> rama1
     border-radius: 5px;
     background-color: #a09536;
     transition: 0.3s ease;
@@ -207,7 +180,6 @@ header .container .navbar-toggler:hover {
   background-color: rgba(78, 78, 75, 0.767);
 }
 
-<<<<<<< HEAD
 
 .galeria-container img:hover {
     transform: scale(1.1);
@@ -220,98 +192,6 @@ header .container .navbar-toggler:hover {
         padding: 0 10px;
     }
 }
-
-/* SECCION DE PRODUCTOS */
-=======
-.portada {
-  text-align: center;
-  padding: 50px 20px;
-}
-.portada h2 {
-  font-size: 2rem;
-  color: rgb(93, 63, 121);
-}
-.portada p {
-  font-size: 1.2rem;
-  color: rgb(78, 78, 75);
-}
-
-.descripcion {
-  text-align: center;
-  padding: 40px 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.descripcion h2 {
-  font-size: 1.8rem;
-  color: rgb(93, 63, 121);
-}
-.descripcion p {
-  font-size: 1rem;
-  color: rgb(78, 78, 75);
-}
-
-.testimonios {
-  background-color: rgb(93, 63, 121);
-  padding: 40px 20px;
-  color: #fff;
-}
-.testimonios h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.8rem;
-}
-.testimonios .testimonios-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-.testimonios .testimonios-container .testimonio {
-  max-width: 600px;
-  background-color: #fff;
-  color: rgb(93, 63, 121);
-  border: 1px solid rgb(160, 149, 54);
-  border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.galeria h2 {
-  text-align: center;
-  color: #5d3f79;
-}
-.galeria .galeria-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-}
-.galeria .galeria-container img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-  transition: transform 0.3s;
-}
-.galeria .galeria-container img:hover {
-  transform: scale(1.1);
-}
-
-h1.page-title {
-  color: black;
-  max-width: 50%;
-  text-align: center;
-  border: 2px solid #a09536;
-  border-radius: 10px;
-  background-color: #6c757d;
-  box-sizing: border-box;
-  margin: 0 auto;
-  display: block;
-}
->>>>>>> rama1
 
 .product-card {
   border: none;
